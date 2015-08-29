@@ -1,17 +1,20 @@
 # TestRespository
 
-This is the readme file for the Test Respository.
+This is the lese moi file for the Test Respository, obviously.
 
 ```c#
-private void TryToReadMe(string text, bool gotRead)
+private void TryToReadMe(string text, out bool gotRead)
 {
+  gotRead = false;
   if(text.Contains("readable"))
   {
-    return true;
+    gotRead = true;
+    DoTheReading(text);
   }
-  return false;
 }
 ```
+
+Now the above code isn't syntactically incorrect, at least.
 
 # More to come...
 
