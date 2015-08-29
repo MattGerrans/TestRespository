@@ -16,3 +16,5 @@ private void TryToReadMe(string text, bool gotRead)
 # More to come...
 
 ## And even more after that.
+
+Okay, this is round two of the editing process.
